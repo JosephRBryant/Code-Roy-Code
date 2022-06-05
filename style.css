@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* Navbar */
+body {
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	margin: 10px 20px;
+	justify-content: space-between;
+	font-family: 'Urbanist', sans-serif;
+	color: rgb(114, 114, 114);
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li a {
+	margin: 0 10px;
+	text-decoration: none;
+	color: rgb(115, 115, 115);
+}
+
+h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 8rem;
+	font-weight: 100;
+	color: white;
+}
+
+header {
+	background: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80") no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
